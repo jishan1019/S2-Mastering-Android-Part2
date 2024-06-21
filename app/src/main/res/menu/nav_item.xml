@@ -10,12 +10,14 @@
             android:id="@+id/home"
             android:title="Home"
             android:icon="@drawable/ic_baseline_home_24"
+            android:checkable="true"
             />
 
         <item
             android:id="@+id/profile"
             android:title="Profile"
             android:icon="@drawable/ic_baseline_manage_accounts_24"
+            android:checkable="true"
             />
     </group>
 
@@ -28,6 +30,7 @@
             android:id="@+id/privacy"
             android:title="Privacy Policy"
             android:icon="@drawable/ic_baseline_privacy_tip_24"
+            android:checkable="true"
             />
 
     </group>
